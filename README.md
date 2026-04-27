@@ -1,16 +1,80 @@
-# React + Vite
+# Introdução ao React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido para a disciplina de **Programação para Web**, com o objetivo de praticar conceitos iniciais de React e criação de componentes.
 
-Currently, two official plugins are available:
+## Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O sistema possui **duas páginas**:
 
-## React Compiler
+### Home
+Página introdutória explicando conceitos básicos do React:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- JSX  
+- Componentes  
+- Diferença entre JSX e HTML  
+- Hook `useState`
 
-## Expanding the ESLint configuration
+Além disso, contém um botão para acessar a lista de tarefas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Lista de Tarefas
+Página principal da atividade solicitada pelo professor.
+
+Funcionalidades:
+
+- Adicionar tarefas  
+- Remover tarefas  
+- Manipulação de arrays com `map()` e `filter()`  
+- Atualização de estado com `useState`
+
+---
+
+## Tecnologias Utilizadas
+
+- React.js  
+- JavaScript  
+- CSS3  
+- React Router DOM  
+
+---
+
+## Conceitos Aplicados
+
+### JSX
+Sintaxe que permite escrever estrutura visual parecida com HTML dentro do JavaScript.
+
+### Componentes
+Partes reutilizáveis da interface, organizando melhor o projeto.
+
+### Props
+Utilizadas para passar informações entre componentes.
+
+### useState
+Hook usado para controlar estados da aplicação, como a lista de tarefas.
+
+### Arrays
+Manipulados para adicionar, listar e remover itens dinamicamente.
+
+---
+
+## Estilização
+
+O projeto foi personalizado com CSS próprio, utilizando tema escuro e botões estilizados.
+
+---
+
+## Estrutura do Projeto
+
+```bash
+src/
+ ├── App.jsx
+ ├── main.jsx
+ ├── home.jsx
+ ├── lista-tarefas.jsx
+ ├── App.css
+ └── index.css
+```
+## Como Executar
+```bash
+
+npm install
+npm run dev
